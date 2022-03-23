@@ -18,6 +18,7 @@
 		4E674BC527EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BC427EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift */; };
 		4E674BD227EB9DF800A6EFEC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BD127EB9DF800A6EFEC /* Question.swift */; };
 		4E674BD427EB9E3B00A6EFEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BD327EB9E3B00A6EFEC /* GameViewController.swift */; };
+		4E674BD627EB9E9B00A6EFEC /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BD527EB9E9B00A6EFEC /* MainMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4E674BC427EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4E674BD127EB9DF800A6EFEC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4E674BD327EB9E3B00A6EFEC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4E674BD527EB9E9B00A6EFEC /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4E674BAF27EB9DB700A6EFEC /* Info.plist */,
 				4E674BD127EB9DF800A6EFEC /* Question.swift */,
 				4E674BD327EB9E3B00A6EFEC /* GameViewController.swift */,
+				4E674BD527EB9E9B00A6EFEC /* MainMenuViewController.swift */,
 			);
 			path = Millionare;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E674BD627EB9E9B00A6EFEC /* MainMenuViewController.swift in Sources */,
 				4E674BD427EB9E3B00A6EFEC /* GameViewController.swift in Sources */,
 				4E674BA627EB9DB600A6EFEC /* ViewController.swift in Sources */,
 				4E674BD227EB9DF800A6EFEC /* Question.swift in Sources */,
