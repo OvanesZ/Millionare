@@ -16,6 +16,8 @@
 		4E674BB927EB9DB700A6EFEC /* MillionareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BB827EB9DB700A6EFEC /* MillionareTests.swift */; };
 		4E674BC327EB9DB700A6EFEC /* MillionareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BC227EB9DB700A6EFEC /* MillionareUITests.swift */; };
 		4E674BC527EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BC427EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift */; };
+		4E674BD227EB9DF800A6EFEC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BD127EB9DF800A6EFEC /* Question.swift */; };
+		4E674BD427EB9E3B00A6EFEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BD327EB9E3B00A6EFEC /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4E674BBE27EB9DB700A6EFEC /* MillionareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E674BC227EB9DB700A6EFEC /* MillionareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareUITests.swift; sourceTree = "<group>"; };
 		4E674BC427EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E674BD127EB9DF800A6EFEC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		4E674BD327EB9E3B00A6EFEC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4E674BAA27EB9DB700A6EFEC /* Assets.xcassets */,
 				4E674BAC27EB9DB700A6EFEC /* LaunchScreen.storyboard */,
 				4E674BAF27EB9DB700A6EFEC /* Info.plist */,
+				4E674BD127EB9DF800A6EFEC /* Question.swift */,
+				4E674BD327EB9E3B00A6EFEC /* GameViewController.swift */,
 			);
 			path = Millionare;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E674BD427EB9E3B00A6EFEC /* GameViewController.swift in Sources */,
 				4E674BA627EB9DB600A6EFEC /* ViewController.swift in Sources */,
+				4E674BD227EB9DF800A6EFEC /* Question.swift in Sources */,
 				4E674BA227EB9DB600A6EFEC /* AppDelegate.swift in Sources */,
 				4E674BA427EB9DB600A6EFEC /* SceneDelegate.swift in Sources */,
 			);
