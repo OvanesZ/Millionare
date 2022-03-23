@@ -7,7 +7,9 @@
 
 import UIKit
 
-class GameViewController: ViewController {
+class GameViewController: UIViewController {
+    
+    
     
     
     private var questions = [Question(question: "Столица России?", answer: ["Москва", "Санкт-Петербург", "Казань", "Екатеринбург"], trueAnswer: "Москва"),
@@ -16,4 +18,21 @@ class GameViewController: ViewController {
                                  Question(question: "Какое дерево дольше живет?", answer: ["Сосна", "Осина", "Дуб", "Ель"], trueAnswer: "Дуб"),
                                  Question(question: "Как звали убийцу А.С. Пушкина?", answer: ["Жульен", "дядя Степа", "Мартынов", "Дантес"], trueAnswer: "Дантес")]
     
+    
+    @IBOutlet var tableView: UITableView!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        
+    }
 }
+    
+
+
+
+  
+    
+
