@@ -7,67 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E9B7AA927EA3B0200E99FF3 /* MillionareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B7AA827EA3B0200E99FF3 /* MillionareApp.swift */; };
-		4E9B7AAB27EA3B0200E99FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B7AAA27EA3B0200E99FF3 /* ContentView.swift */; };
-		4E9B7AAD27EA3B0300E99FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9B7AAC27EA3B0300E99FF3 /* Assets.xcassets */; };
-		4E9B7AB027EA3B0300E99FF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9B7AAF27EA3B0300E99FF3 /* Preview Assets.xcassets */; };
-		4E9B7ABA27EA3B0300E99FF3 /* MillionareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B7AB927EA3B0300E99FF3 /* MillionareTests.swift */; };
-		4E9B7AC427EA3B0300E99FF3 /* MillionareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B7AC327EA3B0300E99FF3 /* MillionareUITests.swift */; };
-		4E9B7AC627EA3B0300E99FF3 /* MillionareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B7AC527EA3B0300E99FF3 /* MillionareUITestsLaunchTests.swift */; };
-		4E9B7AD327EA3D3000E99FF3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9B7AD227EA3D3000E99FF3 /* Storyboard.storyboard */; };
-		4E9B7AD527EA3D5500E99FF3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B7AD427EA3D5500E99FF3 /* Question.swift */; };
-		4E9B7AD727EB7F6C00E99FF3 /* PlayBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B7AD627EB7F6C00E99FF3 /* PlayBoardViewController.swift */; };
+		4E674BA227EB9DB600A6EFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BA127EB9DB600A6EFEC /* AppDelegate.swift */; };
+		4E674BA427EB9DB600A6EFEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BA327EB9DB600A6EFEC /* SceneDelegate.swift */; };
+		4E674BA627EB9DB600A6EFEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BA527EB9DB600A6EFEC /* ViewController.swift */; };
+		4E674BA927EB9DB600A6EFEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E674BA727EB9DB600A6EFEC /* Main.storyboard */; };
+		4E674BAB27EB9DB700A6EFEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E674BAA27EB9DB700A6EFEC /* Assets.xcassets */; };
+		4E674BAE27EB9DB700A6EFEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E674BAC27EB9DB700A6EFEC /* LaunchScreen.storyboard */; };
+		4E674BB927EB9DB700A6EFEC /* MillionareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BB827EB9DB700A6EFEC /* MillionareTests.swift */; };
+		4E674BC327EB9DB700A6EFEC /* MillionareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BC227EB9DB700A6EFEC /* MillionareUITests.swift */; };
+		4E674BC527EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BC427EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E9B7AB627EA3B0300E99FF3 /* PBXContainerItemProxy */ = {
+		4E674BB527EB9DB700A6EFEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4E9B7A9D27EA3B0200E99FF3 /* Project object */;
+			containerPortal = 4E674B9627EB9DB600A6EFEC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E9B7AA427EA3B0200E99FF3;
+			remoteGlobalIDString = 4E674B9D27EB9DB600A6EFEC;
 			remoteInfo = Millionare;
 		};
-		4E9B7AC027EA3B0300E99FF3 /* PBXContainerItemProxy */ = {
+		4E674BBF27EB9DB700A6EFEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4E9B7A9D27EA3B0200E99FF3 /* Project object */;
+			containerPortal = 4E674B9627EB9DB600A6EFEC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E9B7AA427EA3B0200E99FF3;
+			remoteGlobalIDString = 4E674B9D27EB9DB600A6EFEC;
 			remoteInfo = Millionare;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E9B7AA527EA3B0200E99FF3 /* Millionare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millionare.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E9B7AA827EA3B0200E99FF3 /* MillionareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareApp.swift; sourceTree = "<group>"; };
-		4E9B7AAA27EA3B0200E99FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4E9B7AAC27EA3B0300E99FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E9B7AAF27EA3B0300E99FF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4E9B7AB527EA3B0300E99FF3 /* MillionareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E9B7AB927EA3B0300E99FF3 /* MillionareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareTests.swift; sourceTree = "<group>"; };
-		4E9B7ABF27EA3B0300E99FF3 /* MillionareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E9B7AC327EA3B0300E99FF3 /* MillionareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareUITests.swift; sourceTree = "<group>"; };
-		4E9B7AC527EA3B0300E99FF3 /* MillionareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4E9B7AD227EA3D3000E99FF3 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		4E9B7AD427EA3D5500E99FF3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		4E9B7AD627EB7F6C00E99FF3 /* PlayBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBoardViewController.swift; sourceTree = "<group>"; };
+		4E674B9E27EB9DB600A6EFEC /* Millionare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millionare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E674BA127EB9DB600A6EFEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E674BA327EB9DB600A6EFEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E674BA527EB9DB600A6EFEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E674BA827EB9DB600A6EFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E674BAA27EB9DB700A6EFEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E674BAD27EB9DB700A6EFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E674BAF27EB9DB700A6EFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E674BB427EB9DB700A6EFEC /* MillionareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E674BB827EB9DB700A6EFEC /* MillionareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareTests.swift; sourceTree = "<group>"; };
+		4E674BBE27EB9DB700A6EFEC /* MillionareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MillionareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E674BC227EB9DB700A6EFEC /* MillionareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareUITests.swift; sourceTree = "<group>"; };
+		4E674BC427EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E9B7AA227EA3B0200E99FF3 /* Frameworks */ = {
+		4E674B9B27EB9DB600A6EFEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9B7AB227EA3B0300E99FF3 /* Frameworks */ = {
+		4E674BB127EB9DB700A6EFEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9B7ABC27EA3B0300E99FF3 /* Frameworks */ = {
+		4E674BBB27EB9DB700A6EFEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,61 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E9B7A9C27EA3B0200E99FF3 = {
+		4E674B9527EB9DB600A6EFEC = {
 			isa = PBXGroup;
 			children = (
-				4E9B7AD227EA3D3000E99FF3 /* Storyboard.storyboard */,
-				4E9B7AA727EA3B0200E99FF3 /* Millionare */,
-				4E9B7AB827EA3B0300E99FF3 /* MillionareTests */,
-				4E9B7AC227EA3B0300E99FF3 /* MillionareUITests */,
-				4E9B7AA627EA3B0200E99FF3 /* Products */,
+				4E674BA027EB9DB600A6EFEC /* Millionare */,
+				4E674BB727EB9DB700A6EFEC /* MillionareTests */,
+				4E674BC127EB9DB700A6EFEC /* MillionareUITests */,
+				4E674B9F27EB9DB600A6EFEC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E9B7AA627EA3B0200E99FF3 /* Products */ = {
+		4E674B9F27EB9DB600A6EFEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E9B7AA527EA3B0200E99FF3 /* Millionare.app */,
-				4E9B7AB527EA3B0300E99FF3 /* MillionareTests.xctest */,
-				4E9B7ABF27EA3B0300E99FF3 /* MillionareUITests.xctest */,
+				4E674B9E27EB9DB600A6EFEC /* Millionare.app */,
+				4E674BB427EB9DB700A6EFEC /* MillionareTests.xctest */,
+				4E674BBE27EB9DB700A6EFEC /* MillionareUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E9B7AA727EA3B0200E99FF3 /* Millionare */ = {
+		4E674BA027EB9DB600A6EFEC /* Millionare */ = {
 			isa = PBXGroup;
 			children = (
-				4E9B7AA827EA3B0200E99FF3 /* MillionareApp.swift */,
-				4E9B7AAA27EA3B0200E99FF3 /* ContentView.swift */,
-				4E9B7AAC27EA3B0300E99FF3 /* Assets.xcassets */,
-				4E9B7AAE27EA3B0300E99FF3 /* Preview Content */,
-				4E9B7AD427EA3D5500E99FF3 /* Question.swift */,
-				4E9B7AD627EB7F6C00E99FF3 /* PlayBoardViewController.swift */,
+				4E674BA127EB9DB600A6EFEC /* AppDelegate.swift */,
+				4E674BA327EB9DB600A6EFEC /* SceneDelegate.swift */,
+				4E674BA527EB9DB600A6EFEC /* ViewController.swift */,
+				4E674BA727EB9DB600A6EFEC /* Main.storyboard */,
+				4E674BAA27EB9DB700A6EFEC /* Assets.xcassets */,
+				4E674BAC27EB9DB700A6EFEC /* LaunchScreen.storyboard */,
+				4E674BAF27EB9DB700A6EFEC /* Info.plist */,
 			);
 			path = Millionare;
 			sourceTree = "<group>";
 		};
-		4E9B7AAE27EA3B0300E99FF3 /* Preview Content */ = {
+		4E674BB727EB9DB700A6EFEC /* MillionareTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E9B7AAF27EA3B0300E99FF3 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4E9B7AB827EA3B0300E99FF3 /* MillionareTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E9B7AB927EA3B0300E99FF3 /* MillionareTests.swift */,
+				4E674BB827EB9DB700A6EFEC /* MillionareTests.swift */,
 			);
 			path = MillionareTests;
 			sourceTree = "<group>";
 		};
-		4E9B7AC227EA3B0300E99FF3 /* MillionareUITests */ = {
+		4E674BC127EB9DB700A6EFEC /* MillionareUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4E9B7AC327EA3B0300E99FF3 /* MillionareUITests.swift */,
-				4E9B7AC527EA3B0300E99FF3 /* MillionareUITestsLaunchTests.swift */,
+				4E674BC227EB9DB700A6EFEC /* MillionareUITests.swift */,
+				4E674BC427EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift */,
 			);
 			path = MillionareUITests;
 			sourceTree = "<group>";
@@ -139,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E9B7AA427EA3B0200E99FF3 /* Millionare */ = {
+		4E674B9D27EB9DB600A6EFEC /* Millionare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E9B7AC927EA3B0300E99FF3 /* Build configuration list for PBXNativeTarget "Millionare" */;
+			buildConfigurationList = 4E674BC827EB9DB700A6EFEC /* Build configuration list for PBXNativeTarget "Millionare" */;
 			buildPhases = (
-				4E9B7AA127EA3B0200E99FF3 /* Sources */,
-				4E9B7AA227EA3B0200E99FF3 /* Frameworks */,
-				4E9B7AA327EA3B0200E99FF3 /* Resources */,
+				4E674B9A27EB9DB600A6EFEC /* Sources */,
+				4E674B9B27EB9DB600A6EFEC /* Frameworks */,
+				4E674B9C27EB9DB600A6EFEC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +144,69 @@
 			);
 			name = Millionare;
 			productName = Millionare;
-			productReference = 4E9B7AA527EA3B0200E99FF3 /* Millionare.app */;
+			productReference = 4E674B9E27EB9DB600A6EFEC /* Millionare.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E9B7AB427EA3B0300E99FF3 /* MillionareTests */ = {
+		4E674BB327EB9DB700A6EFEC /* MillionareTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E9B7ACC27EA3B0300E99FF3 /* Build configuration list for PBXNativeTarget "MillionareTests" */;
+			buildConfigurationList = 4E674BCB27EB9DB700A6EFEC /* Build configuration list for PBXNativeTarget "MillionareTests" */;
 			buildPhases = (
-				4E9B7AB127EA3B0300E99FF3 /* Sources */,
-				4E9B7AB227EA3B0300E99FF3 /* Frameworks */,
-				4E9B7AB327EA3B0300E99FF3 /* Resources */,
+				4E674BB027EB9DB700A6EFEC /* Sources */,
+				4E674BB127EB9DB700A6EFEC /* Frameworks */,
+				4E674BB227EB9DB700A6EFEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E9B7AB727EA3B0300E99FF3 /* PBXTargetDependency */,
+				4E674BB627EB9DB700A6EFEC /* PBXTargetDependency */,
 			);
 			name = MillionareTests;
 			productName = MillionareTests;
-			productReference = 4E9B7AB527EA3B0300E99FF3 /* MillionareTests.xctest */;
+			productReference = 4E674BB427EB9DB700A6EFEC /* MillionareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4E9B7ABE27EA3B0300E99FF3 /* MillionareUITests */ = {
+		4E674BBD27EB9DB700A6EFEC /* MillionareUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E9B7ACF27EA3B0300E99FF3 /* Build configuration list for PBXNativeTarget "MillionareUITests" */;
+			buildConfigurationList = 4E674BCE27EB9DB700A6EFEC /* Build configuration list for PBXNativeTarget "MillionareUITests" */;
 			buildPhases = (
-				4E9B7ABB27EA3B0300E99FF3 /* Sources */,
-				4E9B7ABC27EA3B0300E99FF3 /* Frameworks */,
-				4E9B7ABD27EA3B0300E99FF3 /* Resources */,
+				4E674BBA27EB9DB700A6EFEC /* Sources */,
+				4E674BBB27EB9DB700A6EFEC /* Frameworks */,
+				4E674BBC27EB9DB700A6EFEC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E9B7AC127EA3B0300E99FF3 /* PBXTargetDependency */,
+				4E674BC027EB9DB700A6EFEC /* PBXTargetDependency */,
 			);
 			name = MillionareUITests;
 			productName = MillionareUITests;
-			productReference = 4E9B7ABF27EA3B0300E99FF3 /* MillionareUITests.xctest */;
+			productReference = 4E674BBE27EB9DB700A6EFEC /* MillionareUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E9B7A9D27EA3B0200E99FF3 /* Project object */ = {
+		4E674B9627EB9DB600A6EFEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4E9B7AA427EA3B0200E99FF3 = {
+					4E674B9D27EB9DB600A6EFEC = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					4E9B7AB427EA3B0300E99FF3 = {
+					4E674BB327EB9DB700A6EFEC = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 4E9B7AA427EA3B0200E99FF3;
+						TestTargetID = 4E674B9D27EB9DB600A6EFEC;
 					};
-					4E9B7ABE27EA3B0300E99FF3 = {
+					4E674BBD27EB9DB700A6EFEC = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 4E9B7AA427EA3B0200E99FF3;
+						TestTargetID = 4E674B9D27EB9DB600A6EFEC;
 					};
 				};
 			};
-			buildConfigurationList = 4E9B7AA027EA3B0200E99FF3 /* Build configuration list for PBXProject "Millionare" */;
+			buildConfigurationList = 4E674B9927EB9DB600A6EFEC /* Build configuration list for PBXProject "Millionare" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 4E9B7A9C27EA3B0200E99FF3;
-			productRefGroup = 4E9B7AA627EA3B0200E99FF3 /* Products */;
+			mainGroup = 4E674B9527EB9DB600A6EFEC;
+			productRefGroup = 4E674B9F27EB9DB600A6EFEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E9B7AA427EA3B0200E99FF3 /* Millionare */,
-				4E9B7AB427EA3B0300E99FF3 /* MillionareTests */,
-				4E9B7ABE27EA3B0300E99FF3 /* MillionareUITests */,
+				4E674B9D27EB9DB600A6EFEC /* Millionare */,
+				4E674BB327EB9DB700A6EFEC /* MillionareTests */,
+				4E674BBD27EB9DB700A6EFEC /* MillionareUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E9B7AA327EA3B0200E99FF3 /* Resources */ = {
+		4E674B9C27EB9DB600A6EFEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9B7AB027EA3B0300E99FF3 /* Preview Assets.xcassets in Resources */,
-				4E9B7AAD27EA3B0300E99FF3 /* Assets.xcassets in Resources */,
-				4E9B7AD327EA3D3000E99FF3 /* Storyboard.storyboard in Resources */,
+				4E674BAE27EB9DB700A6EFEC /* LaunchScreen.storyboard in Resources */,
+				4E674BAB27EB9DB700A6EFEC /* Assets.xcassets in Resources */,
+				4E674BA927EB9DB600A6EFEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9B7AB327EA3B0300E99FF3 /* Resources */ = {
+		4E674BB227EB9DB700A6EFEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9B7ABD27EA3B0300E99FF3 /* Resources */ = {
+		4E674BBC27EB9DB700A6EFEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,51 +254,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E9B7AA127EA3B0200E99FF3 /* Sources */ = {
+		4E674B9A27EB9DB600A6EFEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9B7AD527EA3D5500E99FF3 /* Question.swift in Sources */,
-				4E9B7AD727EB7F6C00E99FF3 /* PlayBoardViewController.swift in Sources */,
-				4E9B7AAB27EA3B0200E99FF3 /* ContentView.swift in Sources */,
-				4E9B7AA927EA3B0200E99FF3 /* MillionareApp.swift in Sources */,
+				4E674BA627EB9DB600A6EFEC /* ViewController.swift in Sources */,
+				4E674BA227EB9DB600A6EFEC /* AppDelegate.swift in Sources */,
+				4E674BA427EB9DB600A6EFEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9B7AB127EA3B0300E99FF3 /* Sources */ = {
+		4E674BB027EB9DB700A6EFEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9B7ABA27EA3B0300E99FF3 /* MillionareTests.swift in Sources */,
+				4E674BB927EB9DB700A6EFEC /* MillionareTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E9B7ABB27EA3B0300E99FF3 /* Sources */ = {
+		4E674BBA27EB9DB700A6EFEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9B7AC627EA3B0300E99FF3 /* MillionareUITestsLaunchTests.swift in Sources */,
-				4E9B7AC427EA3B0300E99FF3 /* MillionareUITests.swift in Sources */,
+				4E674BC527EB9DB700A6EFEC /* MillionareUITestsLaunchTests.swift in Sources */,
+				4E674BC327EB9DB700A6EFEC /* MillionareUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E9B7AB727EA3B0300E99FF3 /* PBXTargetDependency */ = {
+		4E674BB627EB9DB700A6EFEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E9B7AA427EA3B0200E99FF3 /* Millionare */;
-			targetProxy = 4E9B7AB627EA3B0300E99FF3 /* PBXContainerItemProxy */;
+			target = 4E674B9D27EB9DB600A6EFEC /* Millionare */;
+			targetProxy = 4E674BB527EB9DB700A6EFEC /* PBXContainerItemProxy */;
 		};
-		4E9B7AC127EA3B0300E99FF3 /* PBXTargetDependency */ = {
+		4E674BC027EB9DB700A6EFEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E9B7AA427EA3B0200E99FF3 /* Millionare */;
-			targetProxy = 4E9B7AC027EA3B0300E99FF3 /* PBXContainerItemProxy */;
+			target = 4E674B9D27EB9DB600A6EFEC /* Millionare */;
+			targetProxy = 4E674BBF27EB9DB700A6EFEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		4E674BA727EB9DB600A6EFEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E674BA827EB9DB600A6EFEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E674BAC27EB9DB700A6EFEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E674BAD27EB9DB700A6EFEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		4E9B7AC727EA3B0300E99FF3 /* Debug */ = {
+		4E674BC627EB9DB700A6EFEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		4E9B7AC827EA3B0300E99FF3 /* Release */ = {
+		4E674BC727EB9DB700A6EFEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,20 +432,19 @@
 			};
 			name = Release;
 		};
-		4E9B7ACA27EA3B0300E99FF3 /* Debug */ = {
+		4E674BC927EB9DB700A6EFEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Millionare/Preview Content\"";
 				DEVELOPMENT_TEAM = 73NUYU5X4U;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Millionare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,20 +460,19 @@
 			};
 			name = Debug;
 		};
-		4E9B7ACB27EA3B0300E99FF3 /* Release */ = {
+		4E674BCA27EB9DB700A6EFEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Millionare/Preview Content\"";
 				DEVELOPMENT_TEAM = 73NUYU5X4U;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Millionare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,7 +488,7 @@
 			};
 			name = Release;
 		};
-		4E9B7ACD27EA3B0300E99FF3 /* Debug */ = {
+		4E674BCC27EB9DB700A6EFEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -501,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		4E9B7ACE27EA3B0300E99FF3 /* Release */ = {
+		4E674BCD27EB9DB700A6EFEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,7 +528,7 @@
 			};
 			name = Release;
 		};
-		4E9B7AD027EA3B0300E99FF3 /* Debug */ = {
+		4E674BCF27EB9DB700A6EFEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,7 +546,7 @@
 			};
 			name = Debug;
 		};
-		4E9B7AD127EA3B0300E99FF3 /* Release */ = {
+		4E674BD027EB9DB700A6EFEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -560,43 +567,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E9B7AA027EA3B0200E99FF3 /* Build configuration list for PBXProject "Millionare" */ = {
+		4E674B9927EB9DB600A6EFEC /* Build configuration list for PBXProject "Millionare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E9B7AC727EA3B0300E99FF3 /* Debug */,
-				4E9B7AC827EA3B0300E99FF3 /* Release */,
+				4E674BC627EB9DB700A6EFEC /* Debug */,
+				4E674BC727EB9DB700A6EFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E9B7AC927EA3B0300E99FF3 /* Build configuration list for PBXNativeTarget "Millionare" */ = {
+		4E674BC827EB9DB700A6EFEC /* Build configuration list for PBXNativeTarget "Millionare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E9B7ACA27EA3B0300E99FF3 /* Debug */,
-				4E9B7ACB27EA3B0300E99FF3 /* Release */,
+				4E674BC927EB9DB700A6EFEC /* Debug */,
+				4E674BCA27EB9DB700A6EFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E9B7ACC27EA3B0300E99FF3 /* Build configuration list for PBXNativeTarget "MillionareTests" */ = {
+		4E674BCB27EB9DB700A6EFEC /* Build configuration list for PBXNativeTarget "MillionareTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E9B7ACD27EA3B0300E99FF3 /* Debug */,
-				4E9B7ACE27EA3B0300E99FF3 /* Release */,
+				4E674BCC27EB9DB700A6EFEC /* Debug */,
+				4E674BCD27EB9DB700A6EFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E9B7ACF27EA3B0300E99FF3 /* Build configuration list for PBXNativeTarget "MillionareUITests" */ = {
+		4E674BCE27EB9DB700A6EFEC /* Build configuration list for PBXNativeTarget "MillionareUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E9B7AD027EA3B0300E99FF3 /* Debug */,
-				4E9B7AD127EA3B0300E99FF3 /* Release */,
+				4E674BCF27EB9DB700A6EFEC /* Debug */,
+				4E674BD027EB9DB700A6EFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4E9B7A9D27EA3B0200E99FF3 /* Project object */;
+	rootObject = 4E674B9627EB9DB600A6EFEC /* Project object */;
 }

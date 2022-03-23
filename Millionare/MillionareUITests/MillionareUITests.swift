@@ -2,7 +2,7 @@
 //  MillionareUITests.swift
 //  MillionareUITests
 //
-//  Created by Ованес Захарян on 22.03.2022.
+//  Created by Ованес Захарян on 23.03.2022.
 //
 
 import XCTest
