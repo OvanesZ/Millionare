@@ -19,12 +19,18 @@ class QuestionTableViewCell: UITableViewCell {
     
     func configure(with question: Question) {
        
+            
         questionLabel.text = String(describing: question.question)
         answerOneLabel.text = String(describing: question.answer[0])
         answerTwoLabel.text = String(describing: question.answer[1])
         answerThreeLabel.text = String(describing: question.answer[2])
         answerFourLabel.text = String(describing: question.answer[3])
-       
+        
+        
+        
+        
+        
+        
         
     }
 
