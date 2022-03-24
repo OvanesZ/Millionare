@@ -17,7 +17,7 @@ class GameTableViewController: UITableViewController {
                                  Question(question: "Как звали убийцу А.С. Пушкина?", answer: ["Жульен", "дядя Степа", "Мартынов", "Дантес"], trueAnswer: "Дантес")]
     
     
-    
+    @IBOutlet var userAnswerTextField: UITextField!
     
     
     override func viewDidLoad() {
@@ -26,6 +26,16 @@ class GameTableViewController: UITableViewController {
         
  
         
+    }
+    
+    
+    @IBAction func answerButtonPressed(_ sender: UIButton) {
+        
+        if userAnswerTextField.text == "" {
+            print("yes")
+        } else {
+            print("no")
+        }
     }
 
     // MARK: - Table view data source
