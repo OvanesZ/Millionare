@@ -26,7 +26,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="NFm-oO-sPH" kind="presentation" id="8Ds-2s-5qF"/>
+                                            <segue destination="QvS-2U-TPA" kind="presentation" id="y6P-N0-OUm"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Результаты" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNX-sl-dbG">
@@ -72,12 +72,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdk-t8-YKA">
-                                <rect key="frame" x="186" y="194" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFw-uj-Tx5">
                                 <rect key="frame" x="25" y="344" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
@@ -94,12 +88,10 @@
                         <constraints>
                             <constraint firstItem="Qpl-y2-KGc" firstAttribute="top" secondItem="CWN-gh-Jar" secondAttribute="top" constant="350" id="64s-Yb-6q6"/>
                             <constraint firstItem="Qpl-y2-KGc" firstAttribute="leading" secondItem="CWN-gh-Jar" secondAttribute="leading" constant="25" id="AHi-3B-Sh3"/>
-                            <constraint firstItem="bdk-t8-YKA" firstAttribute="top" secondItem="CWN-gh-Jar" secondAttribute="top" constant="150" id="KSw-Kl-Sba"/>
                             <constraint firstItem="ZFw-uj-Tx5" firstAttribute="top" secondItem="CWN-gh-Jar" secondAttribute="top" constant="300" id="MAU-Pg-jTF"/>
                             <constraint firstItem="Clv-Ap-0Yu" firstAttribute="leading" secondItem="CWN-gh-Jar" secondAttribute="leading" constant="25" id="Q4p-VX-pIf"/>
                             <constraint firstItem="Clv-Ap-0Yu" firstAttribute="top" secondItem="CWN-gh-Jar" secondAttribute="top" constant="250" id="UhZ-re-c5Z"/>
                             <constraint firstItem="ZFw-uj-Tx5" firstAttribute="leading" secondItem="CWN-gh-Jar" secondAttribute="leading" constant="25" id="Y2Y-cN-ipt"/>
-                            <constraint firstItem="bdk-t8-YKA" firstAttribute="centerX" secondItem="CWN-gh-Jar" secondAttribute="centerX" id="ciK-Fi-VWv"/>
                             <constraint firstItem="Xaz-Vv-Kyt" firstAttribute="leading" secondItem="CWN-gh-Jar" secondAttribute="leading" constant="25" id="r2L-gH-4gq"/>
                             <constraint firstItem="Xaz-Vv-Kyt" firstAttribute="top" secondItem="CWN-gh-Jar" secondAttribute="top" constant="400" id="sfD-U2-KxY"/>
                         </constraints>
@@ -114,6 +106,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d9K-df-p5K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1029" y="71"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="tRw-pa-1L5">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="QvS-2U-TPA" customClass="TestViewController" customModule="Millionare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lDd-nR-AAb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="81D-4f-L6m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3o6-V1-U8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1954" y="72"/>
         </scene>
         <!--Game Table View Controller-->
         <scene sceneID="tkJ-be-HGN">

@@ -21,6 +21,7 @@
 		4E674BD827EBBBE500A6EFEC /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BD727EBBBE500A6EFEC /* GameTableViewController.swift */; };
 		4E674BDA27EBBCD900A6EFEC /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E674BD927EBBCD900A6EFEC /* QuestionTableViewCell.swift */; };
 		4EC3781D27ECDEDF002899CE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3781C27ECDEDF002899CE /* GameViewController.swift */; };
+		4EC3781F27F089DA002899CE /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3781E27F089DA002899CE /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		4E674BD727EBBBE500A6EFEC /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
 		4E674BD927EBBCD900A6EFEC /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		4EC3781C27ECDEDF002899CE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4EC3781E27F089DA002899CE /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				4E674BDB27EBBD2E00A6EFEC /* MainMenu */,
 				4E674BD727EBBBE500A6EFEC /* GameTableViewController.swift */,
 				4E674BD927EBBCD900A6EFEC /* QuestionTableViewCell.swift */,
+				4EC3781E27F089DA002899CE /* TestViewController.swift */,
 			);
 			path = Millionare;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				4EC3781D27ECDEDF002899CE /* GameViewController.swift in Sources */,
 				4E674BA227EB9DB600A6EFEC /* AppDelegate.swift in Sources */,
 				4E674BA427EB9DB600A6EFEC /* SceneDelegate.swift in Sources */,
+				4EC3781F27F089DA002899CE /* TestViewController.swift in Sources */,
 				4E674BD827EBBBE500A6EFEC /* GameTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
