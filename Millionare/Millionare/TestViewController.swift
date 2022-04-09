@@ -8,121 +8,171 @@
 import UIKit
 
 class TestViewController: UIViewController {
+    
+    let game = Game.shared
+    var delegate: LastGameResultProtocol?
 
     
-    var questions = [Question(question: "Столица России?", answer: ["Москва", "Санкт-Петербург", "Казань", "Екатеринбург"], trueAnswer: "Москва"),
-                                 Question(question: "Какой химический элемент назван в честь злого подземного гнома", answer: ["Гафний", "Кобальт", "Бериллий", "Теллур"], trueAnswer: "Кобальт"),
-                                 Question(question: "Где у кузнечика уши?", answer: ["На спине", "На хвосте", "На ногах", "Их нет"], trueAnswer: "На ногах"),
-                                 Question(question: "Какое дерево дольше живет?", answer: ["Сосна", "Осина", "Дуб", "Ель"], trueAnswer: "Дуб"),
-                                 Question(question: "Как звали убийцу А.С. Пушкина?", answer: ["Жульен", "дядя Степа", "Мартынов", "Дантес"], trueAnswer: "Дантес")]
     
-    
-    
-    var answerOneButton = UIButton()
-    var answerTwoButton = UIButton()
-    var answerThreeButton = UIButton()
-    var answerFourButton = UIButton()
+    var oneAnswerButton = UIButton()
+    var twoAnswerButton = UIButton()
+    var threeAnswerButton = UIButton()
+    var fourAnswerButton = UIButton()
     var questionLabel = UILabel()
     
-    
+    private var gameSession: GameSession? = GameSession()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        func addButtons(q: Question) {
-            
-            
-            questionLabel = UILabel(frame: CGRect(x: 25, y: 100, width: 350, height: 50))
-            questionLabel.text = q.question
-            self.view.addSubview(questionLabel)
-            
-            
-        answerOneButton = UIButton(frame: CGRect(x: 25, y: 250, width: 275, height: 50))
-        answerOneButton.setTitle("ответ 1", for: .normal)
-        answerOneButton.backgroundColor = .gray
-        answerOneButton.setTitle(q.answer[0], for: .normal)
-            answerOneButton.tag = 1
-        answerOneButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
-        self.view.addSubview(answerOneButton)
+       
         
-        answerTwoButton = UIButton(frame: CGRect(x: 25, y: 305, width: 275, height: 50))
-        answerTwoButton.setTitle("ответ 2", for: .normal)
-        answerTwoButton.backgroundColor = .gray
-        answerTwoButton.setTitle(q.answer[1], for: .normal)
-            answerTwoButton.tag = 2
-        answerTwoButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
-        self.view.addSubview(answerTwoButton)
-        
-        answerThreeButton = UIButton(frame: CGRect(x: 25, y: 360, width: 275, height: 50))
-        answerThreeButton.setTitle("ответ 3", for: .normal)
-        answerThreeButton.backgroundColor = .gray
-        answerThreeButton.setTitle(q.answer[2], for: .normal)
-            answerThreeButton.tag = 3
-        answerThreeButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
-        self.view.addSubview(answerThreeButton)
-        
-        answerFourButton = UIButton(frame: CGRect(x: 25, y: 415, width: 275, height: 50))
-        answerFourButton.setTitle("ответ 4", for: .normal)
-        answerFourButton.backgroundColor = .gray
-        answerFourButton.setTitle(q.answer[3], for: .normal)
-            answerFourButton.tag = 4
-        answerFourButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
-        self.view.addSubview(answerFourButton)
-            
-            
-        
-    }
-        
-        addButtons(q: questions.removeFirst())
-        
-        
+        addButtons()
+        configureActualQuestion()
+
     }
     
+    
+    func addButtons() {
+        
+        
+        questionLabel = UILabel(frame: CGRect(x: 25, y: 100, width: 350, height: 50))
+        questionLabel.text = "Вопрос"
+        self.view.addSubview(questionLabel)
+        
+        
+    oneAnswerButton = UIButton(frame: CGRect(x: 25, y: 250, width: 275, height: 50))
+    oneAnswerButton.setTitle("ответ 1", for: .normal)
+    oneAnswerButton.backgroundColor = .gray
+        oneAnswerButton.tag = 1
+    oneAnswerButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
+    self.view.addSubview(oneAnswerButton)
+    
+    twoAnswerButton = UIButton(frame: CGRect(x: 25, y: 305, width: 275, height: 50))
+    twoAnswerButton.setTitle("ответ 2", for: .normal)
+    twoAnswerButton.backgroundColor = .gray
+//    answerTwoButton.setTitle(q.answerTwo, for: .normal)
+        twoAnswerButton.tag = 2
+    twoAnswerButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
+    self.view.addSubview(twoAnswerButton)
+    
+    threeAnswerButton = UIButton(frame: CGRect(x: 25, y: 360, width: 275, height: 50))
+    threeAnswerButton.setTitle("ответ 3", for: .normal)
+    threeAnswerButton.backgroundColor = .gray
+ //   answerThreeButton.setTitle(q.answerThree, for: .normal)
+        threeAnswerButton.tag = 3
+    threeAnswerButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
+    self.view.addSubview(threeAnswerButton)
+    
+    fourAnswerButton = UIButton(frame: CGRect(x: 25, y: 415, width: 275, height: 50))
+    fourAnswerButton.setTitle("ответ 4", for: .normal)
+    fourAnswerButton.backgroundColor = .gray
+ //   answerFourButton.setTitle(q.answerFour, for: .normal)
+        fourAnswerButton.tag = 4
+    fourAnswerButton.addTarget(self, action: #selector(pressButton(_:)), for: .touchUpInside)
+    self.view.addSubview(fourAnswerButton)
+}
+    
+    
+    //MARK: - Action
     
     
     @objc func pressButton(_ sender: UIButton) {
         switch sender.tag {
         case 1:
-            answerOneButton.backgroundColor = .green
+            isAnswerRigth(button: oneAnswerButton)
         case 2:
-            answerTwoButton.backgroundColor = .red
+            isAnswerRigth(button: twoAnswerButton)
         case 3:
-            answerThreeButton.backgroundColor = .red
+            isAnswerRigth(button: threeAnswerButton)
         case 4:
-            answerFourButton.backgroundColor = .red
+            isAnswerRigth(button: fourAnswerButton)
         default:
-            answerOneButton.backgroundColor = .gray
-            answerTwoButton.backgroundColor = .gray
-            answerThreeButton.backgroundColor = .gray
-            answerFourButton.backgroundColor = .gray
+            return
         }
+    }
+    
+    
+    
+    
+    
+    
+    private func configureActualQuestion() {
+        guard let score = gameSession?.score else { return }
+        
+        switch score {
+        case 0:
+            gameSession?.question = TestQuestionEnum.first.questions
+        case 10:
+            gameSession?.question = TestQuestionEnum.second.questions
+        case 20:
+            gameSession?.question = TestQuestionEnum.third.questions
+        default:
+            break
+        }
+        configureGame()
+    }
+ 
+    
+    
+    private func configureGame() {
+        guard let gameSession = gameSession, let question = gameSession.question else { return }
+        
+        questionLabel.text = question.question
+        oneAnswerButton.setTitle(question.firstAnswer, for: .normal)
+        oneAnswerButton.backgroundColor = .lightGray
+        twoAnswerButton.setTitle(question.secondAnswer, for: .normal)
+        twoAnswerButton.backgroundColor = .lightGray
+        threeAnswerButton.setTitle(question.thirdAnswer, for: .normal)
+        threeAnswerButton.backgroundColor = .lightGray
+        fourAnswerButton.setTitle(question.fourthAnswer, for: .normal)
+        fourAnswerButton.backgroundColor = .lightGray
+    }
+    
+    
+    
+    private func isAnswerRigth(button: UIButton) {
+        if let answer = button.titleLabel?.text, let question = gameSession?.question {
+            if question.isAnserRight(userAnswer: answer) {
+                gameSession?.score += 10
+                configureActualQuestion()
+            } else {
+                dismiss(animated: true, completion: {
+                    self.game.addRecord(record: Record(score: self.gameSession?.score, name: self.gameSession?.name))
+                    self.delegate?.returnLastGameResult(gameSession: self.gameSession)
+                    self.gameSession = nil
+                })
+            }
+        }
+    }
+    
+    
+    
+    
   
-    }
+//    @objc func pressButton(_ sender: UIButton) {
+//        switch sender.tag {
+//        case 1:
+//            oneAnswerButton.backgroundColor = .green
+//
+//        case 2:
+//            twoAnswerButton.backgroundColor = .red
+//        case 3:
+//            threeAnswerButton.backgroundColor = .red
+//        case 4:
+//            fourAnswerButton.backgroundColor = .red
+//        default:
+//            oneAnswerButton.backgroundColor = .gray
+//            twoAnswerButton.backgroundColor = .gray
+//            threeAnswerButton.backgroundColor = .gray
+//            fourAnswerButton.backgroundColor = .gray
+//        }
+//    }
+    
+  
     
     
-    
-    
-    @objc func buttonOneAction() {
-        sleep(2)
-        if answerOneButton.currentTitle == "Москва" {
-            answerOneButton.backgroundColor = .green
-            print("yes")
-        } else {
-            answerOneButton.backgroundColor = .red
-            print("no")
-        }
-    }
-    
-    @objc func buttonTwoAction() {
-        if answerTwoButton.currentTitle == "Москва" {
-            answerTwoButton.backgroundColor = .green
-            print("yes")
-        } else {
-            answerTwoButton.backgroundColor = .red
-            print("no")
-        }
-    }
     
 
     /*
@@ -135,4 +185,9 @@ class TestViewController: UIViewController {
     }
     */
 
+}
+
+
+protocol LastGameResultProtocol {
+    func returnLastGameResult(gameSession: GameSession?)
 }
